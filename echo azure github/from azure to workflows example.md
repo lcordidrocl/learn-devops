@@ -1,5 +1,8 @@
 https://docs.github.com/en/actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions#azure-pipelines-syntax-for-script-steps
 
+https://docs.github.com/en/actions/learn-github-actions
+
+
 test this following 2 pipelines:
 
 Azure Pipelines:
