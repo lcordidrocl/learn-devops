@@ -1,0 +1,11 @@
+jobs:
+  - job: scripts
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+      - script: echo "This step runs in the default shell"
+      - bash: echo "This step runs in bash"
+      - pwsh: Write-Host "This step runs in PowerShell Core"
+      - task: PowerShell@2
+        inputs:
+          script: Write-Host "This step runs in PowerShell"
