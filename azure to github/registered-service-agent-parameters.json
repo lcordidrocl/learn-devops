@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "apis_RegisteredAgentServicesAPI_path": {
+            "value": null
+        },
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": null
+        },
+        "staticSites_react_app_name": {
+            "value": null
+        },
+        "sites_dev_registered_agents_name": {
+            "value": null
+        },
+        "servers_dev_registered_agents_name": {
+            "value": null
+        },
+        "components_dev_registered_agents_name": {
+            "value": null
+        },
+        "storageAccounts_devregisteredagents_name": {
+            "value": null
+        },
+        "serverfarms_ASP_devregisteredagentsgroup_844b_name": {
+            "value": null
+        },
+        "service_RegisteredAgentServicesAPIapi_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___dev_registered_agents_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_34127eed_69d8_4e84_b79d_e1a2631fa913_WUS2_externalid": {
+            "value": null
+        }
+    }
+}
