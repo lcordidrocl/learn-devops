@@ -1,0 +1,9 @@
+name: test-extra-path-workflow
+on:
+  workflow_dispatch: 
+
+jobs:
+  build:  
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "succesfull run workflow from extra path"
