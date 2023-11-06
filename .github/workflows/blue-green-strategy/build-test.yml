@@ -1,0 +1,14 @@
+name: build_and_test_app
+    ## manually triggered
+    workflow_dispatch:
+
+    jobs:
+        build:  
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "succesfull build"
+
+        test:
+        needs: build
+        steps:
+        - run: echo "all tests passed"

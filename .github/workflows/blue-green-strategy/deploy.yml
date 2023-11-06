@@ -1,0 +1,14 @@
+name: deploy
+
+on:
+    workflow_run:
+        workflows: ["blue-green-strategy/blue_green_switcher"]
+        types:
+        - completed
+
+    jobs:
+        log_succesuflly_triggered:  
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "switcher triggered after build-test completed succesfully"
+        - run: echo "should be trigger if no failed tests"
