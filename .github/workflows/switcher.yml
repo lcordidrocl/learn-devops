@@ -2,7 +2,7 @@ name: blue_green_switcher
 
 on:
     workflow_run:
-        workflows: ["blue-green-strategy/build_and_test_app"]
+        workflows: ["build_and_test_app"]
         types:
         - completed
         
