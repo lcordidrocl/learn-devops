@@ -14,4 +14,4 @@ jobs:
         steps:
         - run: echo "switcher triggered after build-test completed succesfully (or manually for test purposes)"
         - run: echo "should be trigger if no failed tests and completed succesfully"
-        - run: echo "${{env.path_to_deploy}}"
+        - run: echo "${{vars.path_to_deploy}}"
