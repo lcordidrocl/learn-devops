@@ -2,7 +2,7 @@ name: deploy
 
 on:
   workflow_run:
-    workflows: ["blue-green-strategy/blue_green_switcher"]
+    workflows: ["blue_green_switcher"]
     types:
     - completed
 
